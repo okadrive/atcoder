@@ -12,7 +12,9 @@ typedef long long ll;
 #define OPTIMIZE_STDIO ios::sync_with_stdio(false);cin.tie(0);cout.precision(10);cout << fixed
 #define endl '\n'
 
+const int INF = 1e9;
 const ll MOD = 1e9 + 7;
+const ll LINF = 1e18;
 struct mint {
     ll x;
     mint() : x(0) {}
