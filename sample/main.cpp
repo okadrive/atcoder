@@ -47,5 +47,6 @@ void solve(istream& cin, ostream& cout) {
 int main() {
   OPTIMIZE_STDIO;
   solve(cin, cout);
+  return 0;
 }
 #endif
