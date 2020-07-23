@@ -1,6 +1,6 @@
 using P = pair<int, int>;
 
-// $BAG0x?tJ,2r$N7k2L$r(Bpair$B7?$GJV$9(B
+// 素因数分解
 vector<P> decompositPrime(int n) {
   vector<P> res;
   int s = sqrt(n);

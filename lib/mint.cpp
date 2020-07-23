@@ -63,6 +63,13 @@ struct mint {
   mint operator-() {
     return mint() - *this;
   }
+  mint pow(ll t) {
+    if (!t) return 1;
+    mint a = pow(t >> 1);
+    a *= a;
+    if (t & 1) a *= *this;
+    return a;
+  }
   bool operator<(const mint& a) {
     return x < a.x;
   }
