@@ -76,6 +76,8 @@ int main() {
 
     string s;
     ostringstream oss;
+    oss << setprecision(10);
+    oss << fixed;
 
     ifstream pifs(path + "/sample/" + to_string(i) + "_input.txt");
     ifstream aifs(path + "/sample/" + to_string(i) + "_output.txt");
