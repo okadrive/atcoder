@@ -11,6 +11,8 @@ typedef long long ll;
 #define RSORT(var) SORT(var); REVERSE(var)
 #define OPTIMIZE_STDIO ios::sync_with_stdio(false); cin.tie(0); cout.precision(10); cout << fixed
 #define endl '\n'
+template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return 1; } return 0; }
+template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return 1; } return 0; }
 
 const int INF = 1e9;
 const int MOD = 1e9 + 7;
